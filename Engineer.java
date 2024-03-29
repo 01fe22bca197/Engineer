@@ -1,4 +1,4 @@
-public class Engineer {
+public class Engineer extends Bonus {
     String name = "Arpitha";
     String id = "01fe22bca197";
     int Salary = 10000;
@@ -12,5 +12,6 @@ public class Engineer {
     public static void main(String[] args) {
         Engineer e = new Engineer();
         e.displaydetails();
+        e.display();
     }
 }
